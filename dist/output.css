@@ -774,6 +774,10 @@ video {
   width: 3rem;
 }
 
+.w-14 {
+  width: 3.5rem;
+}
+
 .w-32 {
   width: 8rem;
 }
@@ -826,10 +830,6 @@ video {
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-cols-3 {
@@ -919,6 +919,11 @@ video {
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
+.bg-slate-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+}
+
 .bg-slate-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
@@ -930,11 +935,6 @@ video {
 
 .bg-transparent {
   background-color: transparent;
-}
-
-.bg-slate-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -960,18 +960,6 @@ video {
 
 .p-20 {
   padding: 5rem;
-}
-
-.p-3 {
-  padding: 0.75rem;
-}
-
-.p-0 {
-  padding: 0px;
-}
-
-.p-1 {
-  padding: 0.25rem;
 }
 
 .px-16 {
@@ -1009,28 +997,48 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.pt-14 {
-  padding-top: 3.5rem;
-}
-
-.pt-36 {
-  padding-top: 9rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
+.pb-28 {
+  padding-bottom: 7rem;
 }
 
 .pt-1 {
   padding-top: 0.25rem;
 }
 
-.pb-16 {
-  padding-bottom: 4rem;
+.pt-14 {
+  padding-top: 3.5rem;
 }
 
-.pb-28 {
-  padding-bottom: 7rem;
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.pb-\[20px\] {
+  padding-bottom: 20px;
+}
+
+.pb-\[-20px\] {
+  padding-bottom: -20px;
+}
+
+.pb-\[-30px\] {
+  padding-bottom: -30px;
+}
+
+.pb-\[-60px\] {
+  padding-bottom: -60px;
+}
+
+.pb-\[-100px\] {
+  padding-bottom: -100px;
+}
+
+.pb-\[-120px\] {
+  padding-bottom: -120px;
 }
 
 .font-Inter {
@@ -1065,11 +1073,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .font-bold {
@@ -1232,8 +1235,8 @@ video {
     width: 33.333333%;
   }
 
-  .md\:w-32 {
-    width: 8rem;
+  .md\:w-36 {
+    width: 9rem;
   }
 
   .md\:w-\[40\%\] {
@@ -1265,6 +1268,22 @@ video {
   .md\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .md\:pb-36 {
+    padding-bottom: 9rem;
+  }
+
+  .md\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
+  .md\:pb-28 {
+    padding-bottom: 7rem;
+  }
+
+  .md\:pb-24 {
+    padding-bottom: 6rem;
   }
 
   .md\:text-base {
